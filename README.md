@@ -46,10 +46,6 @@ npm install
 3. MongoDB veri tabanını docker compose ile başlatın:
 docker compose up -d
 
-4. MongoDB bağlantı bilgilerini .env dosyasına ekleyin:
-MONGO_URI=mongodb://localhost:27017/product-management
-MONGO_DB_NAME=product-management
-
 5. Server'ı başlatın:
 npm start
 
